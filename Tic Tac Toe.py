@@ -1,4 +1,7 @@
-'''
+'''Design a Tic-Tac-Toe game played between two players on an n x n grid. A move is guaranteed to be valid, and a valid move is one
+   placed on an empty block in the grid. A player who succeeds in placing n of their marks in a horizontal, diagonal, or vertical row
+   wins the game. Once a winning condition is reached, the game ends and no more moves are allowed. Below is an example game which ends
+   in a winning condition : '''
 
 class TicTacToe:
     def __init__(self, n,n1=5):
