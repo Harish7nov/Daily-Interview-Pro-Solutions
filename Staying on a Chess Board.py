@@ -3,9 +3,9 @@
 	will be considered off the board. ''' 
 	
 	
-	import random
+import random
 	
-	def is_knight_on_board(x, y, k, cache={}):
+def is_knight_on_board(x, y, k, cache={}):
     steps_out=0
     i=1
     while(i<=k):
